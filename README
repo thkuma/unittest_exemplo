@@ -1,0 +1,10 @@
+#Exemplo de teste unitário em python
+- Estrutura
+- unittest
+- coverage
+
+#Executando
+python -m unittest discover
+
+coverage run --source=com/kuma/ -m unittest discover;coverage report -m  
+
